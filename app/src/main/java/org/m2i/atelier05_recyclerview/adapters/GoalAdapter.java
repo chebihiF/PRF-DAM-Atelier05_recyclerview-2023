@@ -10,11 +10,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.m2i.atelier05_recyclerview.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class GoalAdapter extends RecyclerView.Adapter<GoalAdapter.GoalViewHolder> {
-    ArrayList<String> list ;
+    List<String> list ;
 
-    public GoalAdapter(ArrayList<String> list) {
+    public GoalAdapter(List<String> list) {
         this.list = list;
     }
 
